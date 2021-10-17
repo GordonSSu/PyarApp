@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "PyarApp",
+    "slug": "PyarApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyCYQ_pHGAq4xHw-i7QMKa3YQdvv5NQuAJ4",
+          "authDomain": "tetra-connections.firebaseapp.com",
+          "projectId": "tetra-connections",
+          "storageBucket": "tetra-connections.appspot.com",
+          "messagingSenderId": "990589864750",
+          "appId": "1:990589864750:web:4f126595141e3786a6c8bf",
+          "measurementId": "G-HH7CK6TJT8"
+        }
+      }
+    }
+  }
+}

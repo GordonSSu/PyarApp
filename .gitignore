@@ -1,0 +1,5 @@
+# Firebase SDK
+app/config/firebase.js
+
+# Node Module Files
+node_modules
